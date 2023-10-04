@@ -16,7 +16,6 @@ main {
     padding: 20px;
 }
 
-/* Стили для строки поиска */
 .search-container {
     display: flex;
     align-items: center;
@@ -60,10 +59,15 @@ main {
 .gallery-item {
     flex-basis: calc(33.33% - 20px);
     box-sizing: border-box;
+    width: 300px; 
+    height: 300px;
+    overflow: hidden; 
 }
 
 .gallery-item img {
     width: 100%;
+    height: 100%;
+    object-fit: cover; /* Масштабировать и обрезать изображение, чтобы оно занимало всю площадь элемента */
     border-radius: 5px;
 }
 
@@ -72,5 +76,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+footer a{
+    color: white;
 }
 
