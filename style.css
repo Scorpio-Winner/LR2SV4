@@ -41,13 +41,6 @@ main {
     cursor: pointer;
 }
 
-#clear-input {
-    margin-left: 10px;
-    font-size: 20px;
-    color: #ccc;
-    cursor: pointer;
-    display: none;
-}
 
 /* Галерея изображений */
 .gallery {
