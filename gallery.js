@@ -35,8 +35,6 @@ closeButton.addEventListener('click', () => {
 
 
 
-
-
 // Обработчик события для кнопки поиска
 searchButton.addEventListener('click', () => {
     searchPhotos();
@@ -105,9 +103,6 @@ function searchPhotos() {
              if (photos.length === 0) {
                 // Если нет результатов, открываем модальное окно с сообщением
                 openModal('Нет результатов для вашего запроса.');
-            } else {
-                // Если есть результаты, скрываем модальное окно
-                closeModal();
             }
             photos.forEach((photo) => {
                 const imageUrl = `https://farm${photo.farm}.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`;

@@ -115,6 +115,10 @@ footer a{
     color: #000;
 }
 
+#clear-input:hover {
+    color: black;
+}
+
 #clear-input {
     margin-left: 10px;
     font-size: 20px;
